@@ -30,6 +30,7 @@ fi
 echo "Removing kube-merge files..."
 rm -rf "$HOME/.kube-merge"
 
-echo "kube-merge has been uninstalled. Backups of your kubeconfig were preserved at ~/.kube/config"
+echo "kube-merge has been uninstalled. All of your kubeconfigs were preserved at ~/.kube/config"
 echo "Self-removing uninstaller..."
+echo "Thank you for using kube-merge!"
 rm -f "$0"
