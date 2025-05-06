@@ -186,7 +186,7 @@ case "$1" in
     add_config "$path" "$context" "$interactive"
     ;;
 
-  switch)
+  switch|use)
     switch_context "$2"
     ;;
   backup-restore)

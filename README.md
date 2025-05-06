@@ -44,6 +44,7 @@ km add <path-to-kubeconfig> [new-context-name] [-i|--interactive]
 
 # Switch to a specific context
 km switch <context-name>
+km use <context-name>
 
 # Restore from a specific backup
 km backup-restore <datetime>
