@@ -38,15 +38,32 @@ kube-merge-uninstall
 
 ## Commands
 
-```
+```bash
+# Add a new kubeconfig file
 km add <path-to-kubeconfig> [new-context-name] [-i|--interactive]
+
+# Switch to a specific context
 km switch <context-name>
+
+# Restore from a specific backup
 km backup-restore <datetime>
+
+# List all available backups with timestamps
 km backup-list
+
+# Clean up old backups (older than 7 days)
 km backup-prune
+
+# Delete a specific context
 km delete <context-name> [--force]
+
+# Rename a specific context
 km rename-context <old> <new>
+
+# List all available contexts
 km list
+
+# Show help
 km [-h|--help]
 ```
 
